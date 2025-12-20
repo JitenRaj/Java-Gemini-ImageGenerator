@@ -2,6 +2,7 @@ package com.project.app;
 
 import com.project.client.GeminiClient;
 import com.project.config.AppConfig;
+import com.project.model.PromptManager;
 import org.springframework.boot.ApplicationArguments;
 import org.springframework.boot.ApplicationRunner;
 import org.springframework.stereotype.Component;
@@ -15,7 +16,9 @@ public class GeminiStartupRunner implements ApplicationRunner {
             AppConfig config = AppConfig.load();
             GeminiClient client = new GeminiClient(config);
 
-            byte[] imageBytes = client.generateImage("A white horse");
+            String prompt = PromptManager.formatPrompt("A white horse");
+
+            byte[] imageBytes = client.generateImage(prompt);
 
             if (imageBytes != null) {
                 client.processAndDisplayImage(imageBytes);

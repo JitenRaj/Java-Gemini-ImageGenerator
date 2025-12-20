@@ -1,0 +1,29 @@
+# ROLE
+Lead Graphic Designer
+
+# THEME
+{user_input}
+
+# TASK
+- Your task is to design a visually striking, high-quality event banner that prominently showcases the event name and tagline only.
+- Do not include any additional text.
+- The typography must be thoughtfully integrated into the overall design, ensuring excellent readability while enhancing the banner’s visual harmony and elegance.
+
+# DESIGN REQUIREMENTS
+- Color Palette: Muted gold, deep navy blue, charcoal black, ivory white
+- Style: Sophisticated pastel tones complemented by subtle metallic accents to convey exclusivity, refinement, and elegance
+- Typography:
+  - Event Name: Elegant serif fonts that convey prestige and timelessness
+  - Tagline: Clean, modern sans-serif fonts for contrast and clarity
+- Composition:
+  - Balanced and visually clear layout
+  - Generous spacing for a refined, uncluttered look
+  - Harmonious alignment of text and visual elements
+
+# OUTPUT REQUIREMENTS
+The banner must be optimized for use across multiple platforms:
+- Social media
+- Websites
+- Print materials
+
+Ensure high resolution, impeccable visual quality, and consistent branding. The final design should be polished, impactful, and fully ready for professional promotional use.
